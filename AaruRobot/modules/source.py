@@ -7,15 +7,15 @@ from pyrogram import filters
 from AaruRobot import pbot as client
 
 
-Aaru = "https://telegra.ph/file/6ccab5bc360325388e2c4.jpg"
+Aaru = "https://te.legra.ph/file/b016175f5537f279dc84f.jpg"
 
 @client.on_message(filters.command(["repo", "source"]))
 async def repo(client, message):
     await message.reply_photo(
         photo=Ayra,
-        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [ᴀᴀʀᴜ ✘ ʀᴏʙᴏᴛ-🇮🇳](t.me/its_Coder_xD)**
+        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [ɴᴏʙɪᴛᴀ ✘ ʀᴏʙᴏᴛ-🇮🇳](t.me/its_Coder_xD)**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [⏤͟͟͞͞x𝐃🥀| 𓆩 𝐂𝐎𝐃𝐄𝐑 𓆪 |∘𖣘︎⃞⃟🔥](tg://user?id=5320093001)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ɴᴏʙɪᴛᴀ_xᴅ](tg://user?id=5275980328)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
